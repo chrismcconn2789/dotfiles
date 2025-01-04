@@ -1,0 +1,72 @@
+[colors.bright]
+black = '#1f2335'
+red = '#ff007c'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#7aa2f7'
+magenta = '#bb9af7'
+cyan = '#7dcfff'
+white = '#c0caf5'
+
+[colors.cursor]
+text = "#1E1E2E"
+cursor = "#F5E0DC"
+
+[colors.normal]
+black = '#1f2335'
+red = '#ff007c'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#7aa2f7'
+magenta = '#bb9af7'
+cyan = '#7dcfff'
+white = '#c0caf5'
+
+[colors.primary]
+background = "#11111b"
+foreground = '#a9b1d6'
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 18
+
+[font.bold]
+style = "Bold"
+
+[font.bold_italic]
+style = "Bold Italic"
+
+[font.italic]
+style = "Italic"
+
+[font.normal]
+family = "CaskaydiaCove NF"
+style = "SemiBold"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 1
+blur = false
+option_as_alt = "Both"
+startup_mode = "Windowed"
+dimensions.columns = 100
+dimensions.lines = 32
+position.x = 75
+position.y = 130
+
+[window.padding]
+x = 16
+y = 16
+
+[cursor.style]
+blinking = 'Always'
+shape = 'Beam'
+
+[cursor]
+blink_interval = 500
+
+[cursor.vi_mode_style]
+shape = 'Beam'
